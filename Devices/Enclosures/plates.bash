@@ -2,12 +2,9 @@
 
 # ------------------------------------------------------------------------------
                                                                      # constants
-#plateList=('largePlates' 'sidePlate' 'frontPlate')
-#platesX=(210 136 210)
-#platesY=(370 80 90)
-plateList=('top_plate')
-platesX=(297)
-platesY=(204)
+plateList=('top_plate' 'side_plate')
+platesX=(297 198)
+platesY=(204 68)
 platesZ=6
 
 workDirectory=$(dirname "$0")
