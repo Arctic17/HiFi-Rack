@@ -41,6 +41,9 @@ G0 Z19.000 f1000
 G90 (set to absolute positioning)
 G0 X0 Y0
 G91 (set to relative positioning)
+;
+; ventilation slits
+;
 ; 
 ; top row
 ;
