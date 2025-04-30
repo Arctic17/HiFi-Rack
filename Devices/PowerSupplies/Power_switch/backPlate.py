@@ -16,7 +16,8 @@ drill_logo          = True
                                                            # drilling parameters
 board_thickness = 6
 board_drill_depth = board_thickness + 3
-drill_diameter = 4
+#drill_diameter = 4
+drill_diameter = 3.175
 fast_displacement_speed = 1000
 drill_displacement_speed = 250
 
@@ -53,7 +54,7 @@ power_supply_slit_y_offset = 4
 rpi_slit_length = 58
 rpi_slit_width = 18.5
 rpi_slit_x_offset = board_length - rpi_slit_length - 11.5
-rpi_slit_y_offset = board_width - rpi_slit_width - 10
+rpi_slit_y_offset = 10
 
 power_outlets_nb = 3
 power_outlets_spacing = 53
@@ -66,7 +67,7 @@ power_outlets_holes_y_offset = 13
 power_outlets_holes_spacing = 40
 
 back_logo_x_offset = 240
-back_logo_y_offset = 8
+back_logo_y_offset = 36
 back_logo_scale = 1/2.9
 
 # ------------------------------------------------------------------------------
@@ -218,10 +219,10 @@ if drill_power_outlets :
     power_outlet_shape = [
         [0, 0],
         [-body_width_internal, 0],
-        [-body_width_internal, body_height_internal - power_outlets_45],
-        [-body_width_internal + power_outlets_45, body_height_internal],
-        [-power_outlets_45, body_height_internal],
-        [0, body_height_internal - power_outlets_45]
+        [-body_width_internal, -body_height_internal + power_outlets_45],
+        [-body_width_internal + power_outlets_45, -body_height_internal],
+        [-power_outlets_45, -body_height_internal],
+        [0, -body_height_internal + power_outlets_45]
     ]
 
     for index in range(power_outlets_nb):
@@ -246,7 +247,7 @@ if drill_power_outlets :
         print(3*INDENT + comment)
         g_code_file.write(gcode_lib.move_fast(
             -power_outlets_hole_to_body - drill_diameter/2,
-            -power_outlets_holes_y_offset + drill_diameter/2,
+            power_outlets_holes_y_offset - drill_diameter/2,
             0
         ))
         g_code_file.write(gcode_lib.build_drawing_element(
@@ -259,7 +260,7 @@ if drill_power_outlets :
             g_code_file.write(gcode_lib.move_fast(
                 power_outlets_spacing - power_outlets_holes_spacing +
                     power_outlets_hole_to_body + drill_diameter/2,
-                power_outlets_holes_y_offset - drill_diameter/2,
+                -power_outlets_holes_y_offset + drill_diameter/2,
                 0
             ))
                                                                 # back to origin
@@ -272,7 +273,7 @@ if drill_logo :
 
     comment = "polygon \"%s\"" % fablab_logo_polygon1_name
     print(INDENT + comment)
-    polygon = gcode_lib.flip_vertical(gcode_lib.scale_polygon(
+    polygon = gcode_lib.flip_horizontal(gcode_lib.scale_polygon(
         gcode_lib.import_polygon(polygon_file_name, fablab_logo_polygon1_name),
         back_logo_scale
     ))
