@@ -13,9 +13,9 @@
    height="10.5cm"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    version="1.0"
-   sodipodi:docname="RPi connector.svg"
+   sodipodi:docname="RPi_connector.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    inkscape:export-filename="/Volumes/Data/Users/francois/Desktop/Volley/volley.png"
    inkscape:export-xdpi="300"
@@ -48,11 +48,11 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.3174677"
-     inkscape:cx="290.06548"
-     inkscape:cy="202.20472"
+     inkscape:zoom="1.8556428"
+     inkscape:cx="421.41731"
+     inkscape:cy="198.4252"
      inkscape:document-units="cm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g1133"
      showgrid="true"
      inkscape:window-width="2560"
      inkscape:window-height="1308"
@@ -107,15 +107,15 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:groupmode="layer"
      id="layer1"
-     inkscape:label="I2c"
-     style="display:inline;"
+     inkscape:label="buttons 1"
+     style="display:none"
      transform="translate(0,-18.897637)">
     <path
        sodipodi:nodetypes="ccccccccc"
@@ -148,7 +148,7 @@
     <path
        sodipodi:nodetypes="cccccccccccccccccc"
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#0080ff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.94488186;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       d="m 121.79529,26.362239 -0.85038,98.362171 h 294.80315 l 3.77953,3.77953 v 45.35431 l -4.62992,3.87404 -293.95279,-0.0945 v 28.8189 l 0,167.71654 294.80316,0 3.77952,3.77952 0,7.55906 -3.77952,3.77953 -294.80316,0 0,18.89764 L 8.40945,408.0945 V 26.362239 Z"
+       d="m 121.79529,26.362239 -0.85038,98.362171 h 294.80315 l 3.77953,3.77953 v 45.35431 l -4.62992,3.87404 -293.95279,-0.0945 v 28.8189 167.71654 h 294.80316 l 3.77952,3.77952 v 7.55906 l -3.77952,3.77953 H 120.94488 v 18.89764 L 8.40945,408.0945 V 26.362239 Z"
        id="path5353-2-7-8-2"
        inkscape:connector-curvature="0" />
     <text
@@ -183,7 +183,7 @@
          id="tspan4657-0-2-4-8-67-5-7-2"
          x="113.38583"
          y="173.85826"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;text-align:end;text-anchor:end;stroke-width:1.06666672px">button 3 (p2)</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;text-align:end;text-anchor:end;stroke-width:1.06666672px">button 3 (p3)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:12.80000019px;line-height:0%;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
@@ -227,6 +227,123 @@
          y="64.13385"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;text-align:end;text-anchor:end;stroke-width:1.06666672px"
          id="tspan1334-8">and LEDs</tspan></text>
+  </g>
+  <g
+     transform="translate(0,-18.897637)"
+     style="display:inline"
+     inkscape:label="buttons 2"
+     id="g1133"
+     inkscape:groupmode="layer">
+    <path
+       inkscape:connector-curvature="0"
+       id="path1093"
+       d="m 721.03938,26.362245 0.85038,136.157435 H 427.08661 l -3.77953,3.77953 v 26.45669 l 4.62992,3.87404 101.19686,-0.0945 3.77953,3.77953 0,15.11811 -3.77953,3.77952 H 427.08662 l -3.77953,3.77952 v 7.55906 l 3.77953,3.77953 h 294.80315 l 0,173.85828 112.53545,-0.0945 V 26.362245 Z"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#0080ff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.94488186;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       sodipodi:nodetypes="ccccccccccccccccccc" />
+    <text
+       id="text1097"
+       y="230.55118"
+       x="725.66925"
+       style="font-style:normal;font-weight:normal;font-size:12.80000019px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;stroke-width:1.06666672px"
+         y="230.55118"
+         x="725.66925"
+         id="tspan1095"
+         sodipodi:role="line">LED 3 (p6)</tspan></text>
+    <text
+       id="text1101"
+       y="192.75591"
+       x="725.66925"
+       style="font-style:normal;font-weight:normal;font-size:12.80000019px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;stroke-width:1.06666672px"
+         y="192.75591"
+         x="725.66925"
+         id="tspan1099"
+         sodipodi:role="line">LED 2 (p5)</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path1103"
+       d="m 121.79529,26.362239 -0.85038,98.362171 h 294.80315 l 3.77953,3.77953 v 45.35431 l -4.62992,3.87404 -293.95279,-0.0945 0,230.55119 L 8.40945,408.0945 V 26.362239 Z"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#0080ff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.94488186;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       sodipodi:nodetypes="ccccccccccc" />
+    <text
+       id="text1107"
+       y="173.85826"
+       x="725.66931"
+       style="font-style:normal;font-weight:normal;font-size:12.80000019px;line-height:0%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;text-align:start;text-anchor:start;stroke-width:1.06666672px"
+         y="173.85826"
+         x="725.66931"
+         id="tspan1105"
+         sodipodi:role="line">LED 1 (p4)</tspan></text>
+    <text
+       id="text1111"
+       y="154.96063"
+       x="113.38583"
+       style="font-style:normal;font-weight:normal;font-size:12.80000019px;line-height:0%;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;text-align:end;text-anchor:end;stroke-width:1.06666672px"
+         y="154.96063"
+         x="113.38583"
+         id="tspan1109"
+         sodipodi:role="line">button 2 (p2)</tspan></text>
+    <text
+       id="text1115"
+       y="173.85826"
+       x="113.38583"
+       style="font-style:normal;font-weight:normal;font-size:12.80000019px;line-height:0%;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;text-align:end;text-anchor:end;stroke-width:1.06666672px"
+         y="173.85826"
+         x="113.38583"
+         id="tspan1113"
+         sodipodi:role="line">button 3 (p3)</tspan></text>
+    <text
+       id="text1119"
+       y="136.06299"
+       x="113.38583"
+       style="font-style:normal;font-weight:normal;font-size:12.80000019px;line-height:0%;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;text-align:end;text-anchor:end;stroke-width:1.06666672px"
+         y="136.06299"
+         x="113.38583"
+         id="tspan1117"
+         sodipodi:role="line">button 1 (p0)</tspan></text>
+    <text
+       id="text1125"
+       y="45.354324"
+       x="15.118111"
+       style="font-style:normal;font-weight:normal;font-size:12.80000019px;line-height:0%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;text-align:start;text-anchor:start;stroke-width:1.06666672px"
+         y="45.354324"
+         x="15.118111"
+         id="tspan1121"
+         sodipodi:role="line">Buttons</tspan><tspan
+         id="tspan1123"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;text-align:start;text-anchor:start;stroke-width:1.06666672px"
+         y="60.354324"
+         x="15.118111"
+         sodipodi:role="line">and LEDs</tspan></text>
+    <text
+       id="text1131"
+       y="49.133854"
+       x="827.71655"
+       style="font-style:normal;font-weight:normal;font-size:12.80000019px;line-height:0%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;text-align:end;text-anchor:end;stroke-width:1.06666672px"
+         y="49.133854"
+         x="827.71655"
+         id="tspan1127"
+         sodipodi:role="line">Buttons</tspan><tspan
+         id="tspan1129"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;text-align:end;text-anchor:end;stroke-width:1.06666672px"
+         y="64.13385"
+         x="827.71655"
+         sodipodi:role="line">and LEDs</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
