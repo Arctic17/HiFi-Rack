@@ -11,9 +11,9 @@ G92 X0 Y0 (set X,Y position to zero)
 ;
 ; board shape
 ;
-G1 X198.000 f1000
+G1 X136.000 f1000
 G1 Y68.000 f1000
-G1 X-198.000 f1000
+G1 X-136.000 f1000
 G1 Y-68.000 f1000
 ; move back to origin
 G90 (set to absolute positioning)
@@ -23,7 +23,7 @@ G91 (set to relative positioning)
 ; ventilation slits
 ;
 T4 (drill diameter for the following operations)
-G0 X15.000 Y12.000 f1000
+G0 X12.000 Y12.000 f1000
 ; slit 1
 G0 Z-10.000 f1000
 G1 Z-1.000 f100
@@ -338,153 +338,6 @@ G1 Z-1.000 f100
 G1 Y-31.000 f250
 G1 Z8.000 f1000
 G0 Z10.000 f1000
-G0 X8.000 f1000
-; slit 16
-G0 Z-10.000 f1000
-G1 Z-1.000 f100
-G1 Y31.000 f250
-G1 Z-1.000 f100
-G1 Y-31.000 f250
-G1 Z-1.000 f100
-G1 Y31.000 f250
-G1 Z-1.000 f100
-G1 Y-31.000 f250
-G1 Z-1.000 f100
-G1 Y31.000 f250
-G1 Z-1.000 f100
-G1 Y-31.000 f250
-G1 Z-1.000 f100
-G1 Y31.000 f250
-G1 Z-1.000 f100
-G1 Y-31.000 f250
-G1 Z8.000 f1000
-G0 Z10.000 f1000
-G0 X8.000 f1000
-; slit 17
-G0 Z-10.000 f1000
-G1 Z-1.000 f100
-G1 Y31.000 f250
-G1 Z-1.000 f100
-G1 Y-31.000 f250
-G1 Z-1.000 f100
-G1 Y31.000 f250
-G1 Z-1.000 f100
-G1 Y-31.000 f250
-G1 Z-1.000 f100
-G1 Y31.000 f250
-G1 Z-1.000 f100
-G1 Y-31.000 f250
-G1 Z-1.000 f100
-G1 Y31.000 f250
-G1 Z-1.000 f100
-G1 Y-31.000 f250
-G1 Z8.000 f1000
-G0 Z10.000 f1000
-G0 X8.000 f1000
-; slit 18
-G0 Z-10.000 f1000
-G1 Z-1.000 f100
-G1 Y31.000 f250
-G1 Z-1.000 f100
-G1 Y-31.000 f250
-G1 Z-1.000 f100
-G1 Y31.000 f250
-G1 Z-1.000 f100
-G1 Y-31.000 f250
-G1 Z-1.000 f100
-G1 Y31.000 f250
-G1 Z-1.000 f100
-G1 Y-31.000 f250
-G1 Z-1.000 f100
-G1 Y31.000 f250
-G1 Z-1.000 f100
-G1 Y-31.000 f250
-G1 Z8.000 f1000
-G0 Z10.000 f1000
-G0 X8.000 f1000
-; slit 19
-G0 Z-10.000 f1000
-G1 Z-1.000 f100
-G1 Y31.000 f250
-G1 Z-1.000 f100
-G1 Y-31.000 f250
-G1 Z-1.000 f100
-G1 Y31.000 f250
-G1 Z-1.000 f100
-G1 Y-31.000 f250
-G1 Z-1.000 f100
-G1 Y31.000 f250
-G1 Z-1.000 f100
-G1 Y-31.000 f250
-G1 Z-1.000 f100
-G1 Y31.000 f250
-G1 Z-1.000 f100
-G1 Y-31.000 f250
-G1 Z8.000 f1000
-G0 Z10.000 f1000
-G0 X8.000 f1000
-; slit 20
-G0 Z-10.000 f1000
-G1 Z-1.000 f100
-G1 Y31.000 f250
-G1 Z-1.000 f100
-G1 Y-31.000 f250
-G1 Z-1.000 f100
-G1 Y31.000 f250
-G1 Z-1.000 f100
-G1 Y-31.000 f250
-G1 Z-1.000 f100
-G1 Y31.000 f250
-G1 Z-1.000 f100
-G1 Y-31.000 f250
-G1 Z-1.000 f100
-G1 Y31.000 f250
-G1 Z-1.000 f100
-G1 Y-31.000 f250
-G1 Z8.000 f1000
-G0 Z10.000 f1000
-G0 X8.000 f1000
-; slit 21
-G0 Z-10.000 f1000
-G1 Z-1.000 f100
-G1 Y31.000 f250
-G1 Z-1.000 f100
-G1 Y-31.000 f250
-G1 Z-1.000 f100
-G1 Y31.000 f250
-G1 Z-1.000 f100
-G1 Y-31.000 f250
-G1 Z-1.000 f100
-G1 Y31.000 f250
-G1 Z-1.000 f100
-G1 Y-31.000 f250
-G1 Z-1.000 f100
-G1 Y31.000 f250
-G1 Z-1.000 f100
-G1 Y-31.000 f250
-G1 Z8.000 f1000
-G0 Z10.000 f1000
-G0 X8.000 f1000
-; slit 22
-G0 Z-10.000 f1000
-G1 Z-1.000 f100
-G1 Y31.000 f250
-G1 Z-1.000 f100
-G1 Y-31.000 f250
-G1 Z-1.000 f100
-G1 Y31.000 f250
-G1 Z-1.000 f100
-G1 Y-31.000 f250
-G1 Z-1.000 f100
-G1 Y31.000 f250
-G1 Z-1.000 f100
-G1 Y-31.000 f250
-G1 Z-1.000 f100
-G1 Y31.000 f250
-G1 Z-1.000 f100
-G1 Y-31.000 f250
-G1 Z8.000 f1000
-G0 Z10.000 f1000
 ; move back to origin
 G90 (set to absolute positioning)
 G0 X0 Y0
@@ -644,7 +497,7 @@ G1 X-6.000 f250
 G1 Y-0.250 f250
 G0 Z19.000 f1000
 G90 (set to absolute positioning)
-G0 X19.000 Y68.000
+G0 X16.000 Y68.000
 G91 (set to relative positioning)
 ; top side left screw fixing slit
 T4 (drill diameter for the following operations)
@@ -724,7 +577,7 @@ G1 X-0.250 f250
 G0 Z19.000 f1000
 ; top side right screw fixing slit
 T4 (drill diameter for the following operations)
-G0 X160.000 f1000
+G0 X104.000 f1000
 G1 Z-10.000 f100
 G1 Z-1.000 f100
 G1 X-0.250 Y-0.000 f250
@@ -800,7 +653,7 @@ G1 X-0.000 Y6.000 f250
 G1 X-0.250 f250
 G0 Z19.000 f1000
 G90 (set to absolute positioning)
-G0 X198.000 Y52.000
+G0 X136.000 Y52.000
 G91 (set to relative positioning)
 ; right side top screw fixing slit
 T4 (drill diameter for the following operations)
@@ -956,7 +809,7 @@ G1 X6.000 f250
 G1 Y-0.250 f250
 G0 Z19.000 f1000
 G90 (set to absolute positioning)
-G0 X179.000 Y0.000
+G0 X120.000 Y0.000
 G91 (set to relative positioning)
 ; bottom side right screw fixing slit
 T4 (drill diameter for the following operations)
@@ -1036,7 +889,7 @@ G1 X0.250 Y-0.000 f250
 G0 Z19.000 f1000
 ; bottom side left screw fixing slit
 T4 (drill diameter for the following operations)
-G0 X-160.000 f1000
+G0 X-104.000 f1000
 G1 Z-10.000 f100
 G1 Z-1.000 f100
 G1 X0.250 f250

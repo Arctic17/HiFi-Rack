@@ -13,10 +13,10 @@ G92 X0 Y0 (set X,Y position to zero)
 ;
 ; shape
 ;
-G1 X297.000 f1000
-G1 Y204.000 f1000
-G1 X-297.000 f1000
-G1 Y-204.000 f1000
+G1 X210.000 f1000
+G1 Y142.000 f1000
+G1 X-210.000 f1000
+G1 Y-142.000 f1000
 ; move back to origin
 G90 (set to absolute positioning)
 G0 X0 Y0
@@ -28,13 +28,13 @@ T4 (drill diameter for the following operations)
 G0 X3.000 Y19.000 f1000
 G1 Z-19.000 f100
 G0 Z19.000 f1000
-G0 X291.000 f1000
+G0 X204.000 f1000
 G1 Z-19.000 f100
 G0 Z19.000 f1000
-G0 Y160.000 f1000
+G0 Y98.000 f1000
 G1 Z-19.000 f100
 G0 Z19.000 f1000
-G0 X-291.000 f1000
+G0 X-204.000 f1000
 G1 Z-19.000 f100
 G0 Z19.000 f1000
 ; move back to origin
@@ -45,16 +45,16 @@ G91 (set to relative positioning)
 ; fixing holes
 ;
 T4 (drill diameter for the following operations)
-G0 X28.500 Y16.000 f1000
+G0 X29.000 Y10.000 f1000
 G1 Z-19.000 f100
 G0 Z19.000 f1000
-G0 X240.000 f1000
+G0 X152.000 f1000
 G1 Z-19.000 f100
 G0 Z19.000 f1000
-G0 Y166.000 f1000
+G0 Y116.000 f1000
 G1 Z-19.000 f100
 G0 Z19.000 f1000
-G0 X-240.000 f1000
+G0 X-152.000 f1000
 G1 Z-19.000 f100
 G0 Z19.000 f1000
 ; move back to origin
