@@ -29,8 +29,8 @@ machining_parameters = {
 
 # ------------------------------------------------------------------------------
                                                                       # geometry
-box_length = 297
-box_width  = 210
+box_length = 210
+box_width  = 148
 box_height  = 80
 
 board_length = box_length
@@ -41,8 +41,8 @@ fixing_holes_y_offset = 25
 fixing_holes_length = board_length - 2*fixing_holes_x_offset
 fixing_holes_width = board_width - 2*fixing_holes_y_offset + board_thickness
 
-feet_holes_x_offset = 28.5
-feet_holes_y_offset = 22
+feet_holes_x_offset = 29
+feet_holes_y_offset = 16
 feet_holes_length = board_length - 2*feet_holes_x_offset
 feet_holes_width = board_width - 2*feet_holes_y_offset + board_thickness
 

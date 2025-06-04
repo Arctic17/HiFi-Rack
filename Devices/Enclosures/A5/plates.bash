@@ -3,8 +3,8 @@
 # ------------------------------------------------------------------------------
                                                                      # constants
 plateList=('bottom_plate' 'top_plate' 'side_plate' 'back_plate' 'front_plate')
-platesX=(297 297 198 297 297)
-platesY=(204 204 68 68 80)
+platesX=(210 210 136 210 210)
+platesY=(142 142 68 68 80)
 platesZ=6
 
 workDirectory=$(dirname "$0")
@@ -61,7 +61,7 @@ for index in ${!plateList[@]} ; do
     $gCodeDirectory/gcodeToSvg.py $svgArguments $gcodeFile || exit 1
     windowId=`xdotool search --name $plate`
     #echo $windowId
-    if [ -n "$windowId" ] ; then
+    if False and [ -n "$windowId" ] ; then
       windowId=`echo $windowId | cut -d ' ' -f 1`
       xdotool windowfocus $windowId
       xdotool key ctrl+alt+r

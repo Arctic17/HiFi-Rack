@@ -29,8 +29,8 @@ machining_parameters = {
 
 # ------------------------------------------------------------------------------
                                                                       # geometry
-box_length = 297
-box_width  = 210
+box_length = 210
+box_width  = 148
 box_height  = 80
 
 board_length = box_length

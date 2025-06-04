@@ -34,22 +34,21 @@ machining_parameters = {
 
 # ------------------------------------------------------------------------------
                                                                       # geometry
-box_length = 297
-box_width  = 210
+box_length = 210
+box_width  = 148
 box_height  = 80
 
 board_length = box_width - 2*board_thickness
 board_width = box_height - 2*board_thickness
 
-slits_x_offset = 15
+slits_x_offset = 12
 slits_y_offset = 10
-
 slits_length = 35
 slits_width = machining_parameters['drill_diameter']
 slits_spacing = 2*slits_width
-slit_nb = 22
+slit_nb = 15
 
-screw_slits_x_offset = 19
+screw_slits_x_offset = 16
 screw_slits_y_offset = 16
 screw_slits_width = 4.5
 screw_slits_end_width = screw_slits_width + 2

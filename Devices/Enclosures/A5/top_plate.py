@@ -29,25 +29,25 @@ machining_parameters = {
 
 # ------------------------------------------------------------------------------
                                                                       # geometry
-box_length = 297
-box_width  = 210
+box_length = 210
+box_width  = 148
 box_height  = 80
 
 board_length = box_length
 board_width  = box_width - board_thickness
 
 fixing_holes_x_offset = board_thickness/2
-fixing_holes_y_offset = 25
+fixing_holes_y_offset = 22
 fixing_holes_length = board_length - 2*fixing_holes_x_offset
 fixing_holes_width = board_width - 2*fixing_holes_y_offset + board_thickness
 
-ventilation_slits_x_offset = 20.5
-ventilation_slits_y_offset = 20
+ventilation_slits_x_offset = 21
+ventilation_slits_y_offset = 16
 ventilation_slits_y_spacing = 16
-ventilation_slits_length = 46
+ventilation_slits_length = 41
 ventilation_slits_width = drill_diameter
 ventilation_slits_spacing = 2*ventilation_slits_width
-ventilation_slit_nb = 33
+ventilation_slit_nb = 22
 
 # ------------------------------------------------------------------------------
                                                                      # file spec
@@ -111,40 +111,22 @@ if drill_ventilation_slits :
     comment = 'ventilation slits'
     print(2*INDENT + comment)
     g_code_file.write(";\n; %s\n;\n" % comment)
+                                                               # bottom slit set
+    g_code_file.write(gcode_lib.build_slit_set(
+		ventilation_slits_x_offset, ventilation_slits_y_offset,
+		0, ventilation_slits_length, ventilation_slits_spacing, 0,
+        ventilation_slit_nb,
+        machining_parameters,
+        "\n; %s\n;" % comment
+    ))
+                                                                # back to origin
+    g_code_file.write(gcode_lib.move_back_to_origin())
                                                                   # top slit set
-    comment = 'top row'
-    print(3*INDENT + comment)
     g_code_file.write(gcode_lib.build_slit_set(
 		ventilation_slits_x_offset,
-		board_width - ventilation_slits_y_offset   
-          - ventilation_slits_length + drill_diameter/2,
-		0, ventilation_slits_length - drill_diameter,
-        ventilation_slits_spacing, 0,
-        ventilation_slit_nb,
-        machining_parameters,
-        "\n; %s\n;" % comment
-    ))
-                                                               # middle slit set
-    comment = 'middle row'
-    print(3*INDENT + comment)
-    g_code_file.write(gcode_lib.build_slit_set(
-		-(ventilation_slit_nb - 1)*ventilation_slits_spacing,
-		-ventilation_slits_length - ventilation_slits_y_spacing,
-		0, ventilation_slits_length - drill_diameter,
-        ventilation_slits_spacing, 0,
-        ventilation_slit_nb,
-        machining_parameters,
-        "\n; %s\n;" % comment
-    ))
-                                                               # bottom slit set
-    comment = 'bottom row'
-    print(3*INDENT + comment)
-    g_code_file.write(gcode_lib.build_slit_set(
-		-(ventilation_slit_nb - 1)*ventilation_slits_spacing,
-		-ventilation_slits_length - ventilation_slits_y_spacing 
-        ,
-		0, ventilation_slits_length - drill_diameter,
-        ventilation_slits_spacing, 0,
+		board_width - ventilation_slits_y_offset
+			- ventilation_slits_length - board_thickness,
+		0, ventilation_slits_length, ventilation_slits_spacing, 0,
         ventilation_slit_nb,
         machining_parameters,
         "\n; %s\n;" % comment
