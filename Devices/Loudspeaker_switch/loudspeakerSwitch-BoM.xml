@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gnm:Workbook xmlns:gnm="http://www.gnumeric.org/v10.dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gnumeric.org/v9.xsd">
+  <gnm:Version Epoch="1" Major="12" Minor="46" Full="1.12.46"/>
+  <gnm:Attributes>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::show_horizontal_scrollbar</gnm:name>
+      <gnm:value>TRUE</gnm:value>
+    </gnm:Attribute>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::show_vertical_scrollbar</gnm:name>
+      <gnm:value>TRUE</gnm:value>
+    </gnm:Attribute>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::show_notebook_tabs</gnm:name>
+      <gnm:value>TRUE</gnm:value>
+    </gnm:Attribute>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::do_auto_completion</gnm:name>
+      <gnm:value>TRUE</gnm:value>
+    </gnm:Attribute>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::is_protected</gnm:name>
+      <gnm:value>FALSE</gnm:value>
+    </gnm:Attribute>
+  </gnm:Attributes>
+  <office:document-meta xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:ooo="http://openoffice.org/2004/office" office:version="1.2">
+    <office:meta>
+      <dc:date>2025-07-31T17:29:47Z</dc:date>
+      <meta:print-date>2009-04-22T19:24:48Z</meta:print-date>
+      <meta:creation-date>2006-09-16T00:00:00Z</meta:creation-date>
+      <meta:editing-cycles>18</meta:editing-cycles>
+      <meta:editing-duration>2009-04-22T22:30:27Z</meta:editing-duration>
+      <meta:user-defined meta:name="msole:codepage" meta:value-type="float">-535</meta:user-defined>
+    </office:meta>
+  </office:document-meta>
+  <gnm:Calculation ManualRecalc="0" EnableIteration="0" MaxIterations="100" IterationTolerance="0.001" FloatRadix="2" FloatDigits="53"/>
+  <gnm:SheetNameIndex>
+    <gnm:SheetName gnm:Cols="256" gnm:Rows="65536">Mouser</gnm:SheetName>
+    <gnm:SheetName gnm:Cols="256" gnm:Rows="65536">Bossard</gnm:SheetName>
+    <gnm:SheetName gnm:Cols="256" gnm:Rows="65536">Seeed studio</gnm:SheetName>
+    <gnm:SheetName gnm:Cols="256" gnm:Rows="65536">cables</gnm:SheetName>
+  </gnm:SheetNameIndex>
+  <gnm:Geometry Width="1299" Height="667"/>
+  <gnm:Sheets>
+    <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
+      <gnm:Name>Mouser</gnm:Name>
+      <gnm:MaxCol>5</gnm:MaxCol>
+      <gnm:MaxRow>17</gnm:MaxRow>
+      <gnm:Zoom>1</gnm:Zoom>
+      <gnm:Names>
+        <gnm:Name>
+          <gnm:name>Print_Area</gnm:name>
+          <gnm:value>#REF!</gnm:value>
+          <gnm:position>A1</gnm:position>
+        </gnm:Name>
+        <gnm:Name>
+          <gnm:name>Sheet_Title</gnm:name>
+          <gnm:value>&quot;Mouser&quot;</gnm:value>
+          <gnm:position>A1</gnm:position>
+        </gnm:Name>
+      </gnm:Names>
+      <gnm:PrintInformation>
+        <gnm:Margins>
+          <gnm:top Points="54" PrefUnit="mm"/>
+          <gnm:bottom Points="54" PrefUnit="mm"/>
+          <gnm:left Points="50.4" PrefUnit="mm"/>
+          <gnm:right Points="50.4" PrefUnit="mm"/>
+          <gnm:header Points="36.85" PrefUnit="mm"/>
+          <gnm:footer Points="36.85" PrefUnit="mm"/>
+        </gnm:Margins>
+        <gnm:Scale type="percentage" percentage="100"/>
+        <gnm:vcenter value="0"/>
+        <gnm:hcenter value="0"/>
+        <gnm:grid value="0"/>
+        <gnm:even_if_only_styles value="0"/>
+        <gnm:monochrome value="0"/>
+        <gnm:draft value="0"/>
+        <gnm:titles value="0"/>
+        <gnm:do_not_print value="0"/>
+        <gnm:print_range value="GNM_PRINT_ACTIVE_SHEET"/>
+        <gnm:order>d_then_r</gnm:order>
+        <gnm:orientation>portrait</gnm:orientation>
+        <gnm:Header Left="" Middle="&amp;[TAB]" Right=""/>
+        <gnm:Footer Left="" Middle="Page &amp;[PAGE]" Right=""/>
+        <gnm:paper>iso_a4</gnm:paper>
+        <gnm:comments placement="GNM_PRINT_COMMENTS_NONE"/>
+        <gnm:errors PrintErrorsAs="GNM_PRINT_ERRORS_AS_DISPLAYED"/>
+      </gnm:PrintInformation>
+      <gnm:Styles>
+        <gnm:StyleRegion startCol="0" startRow="0" endCol="0" endRow="1">
+          <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_TOP" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="@">
+            <gnm:Font Unit="12" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="2" endCol="0" endRow="65534">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="@">
+            <gnm:Font Unit="12" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="65535" endCol="255" endRow="65535">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="12" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="0" endCol="3" endRow="1">
+          <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_TOP" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="12" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="2" endCol="255" endRow="2">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="12" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="3" endCol="1" endRow="3">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="12" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="4" endCol="255" endRow="65534">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="12" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="2" startRow="3" endCol="2" endRow="3">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="1" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="12" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="3" startRow="3" endCol="255" endRow="3">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="12" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4" startRow="0" endCol="255" endRow="1">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="12" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+      </gnm:Styles>
+      <gnm:Cols DefaultSizePts="59.4">
+        <gnm:ColInfo No="0" Unit="165.4"/>
+        <gnm:ColInfo No="1" Unit="129.6"/>
+        <gnm:ColInfo No="2" Unit="124.9"/>
+        <gnm:ColInfo No="3" Unit="170.2"/>
+        <gnm:ColInfo No="4" Unit="66.44"/>
+      </gnm:Cols>
+      <gnm:Rows DefaultSizePts="15.8">
+        <gnm:RowInfo No="0" Unit="12.75" Count="9"/>
+        <gnm:RowInfo No="12" Unit="12.75" Count="6"/>
+      </gnm:Rows>
+      <gnm:Selections CursorCol="0" CursorRow="3">
+        <gnm:Selection startCol="0" startRow="3" endCol="0" endRow="3"/>
+      </gnm:Selections>
+      <gnm:Cells>
+        <gnm:Cell Row="0" Col="0" ValueType="60">Manufacturer Part Number</gnm:Cell>
+        <gnm:Cell Row="0" Col="1" ValueType="60">Mouser Part Number</gnm:Cell>
+        <gnm:Cell Row="0" Col="2" ValueType="60">Manufacturer Name</gnm:Cell>
+        <gnm:Cell Row="0" Col="3" ValueType="60">Description</gnm:Cell>
+        <gnm:Cell Row="0" Col="4" ValueType="60">Quantity 1</gnm:Cell>
+        <gnm:Cell Row="2" Col="0" ValueType="60">4304.6058</gnm:Cell>
+        <gnm:Cell Row="2" Col="2" ValueType="60">Schurter</gnm:Cell>
+        <gnm:Cell Row="2" Col="3" ValueType="60">AC power entry module</gnm:Cell>
+        <gnm:Cell Row="2" Col="4" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="3" Col="0" ValueType="60"> 576-0618001.MXP</gnm:Cell>
+        <gnm:Cell Row="3" Col="2" ValueType="60">Littelfuse</gnm:Cell>
+        <gnm:Cell Row="3" Col="3" ValueType="60">fuse 1 A</gnm:Cell>
+        <gnm:Cell Row="3" Col="4" ValueType="40">2</gnm:Cell>
+        <gnm:Cell Row="4" Col="0" ValueType="60"> TXM 015-105</gnm:Cell>
+        <gnm:Cell Row="4" Col="2" ValueType="60">TRACO Power</gnm:Cell>
+        <gnm:Cell Row="4" Col="3" ValueType="60">switching power supply 5V</gnm:Cell>
+        <gnm:Cell Row="4" Col="4" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="5" Col="0" ValueType="60">SC0073</gnm:Cell>
+        <gnm:Cell Row="5" Col="2" ValueType="60">Raspberry Pi 3B+</gnm:Cell>
+        <gnm:Cell Row="5" Col="3" ValueType="60">Raspberry Pi 3 B+</gnm:Cell>
+        <gnm:Cell Row="5" Col="4" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="6" Col="0" ValueType="60">MTSD256ANC8MS-1WT</gnm:Cell>
+        <gnm:Cell Row="6" Col="2" ValueType="60">Micron Technology</gnm:Cell>
+        <gnm:Cell Row="6" Col="3" ValueType="60">MicroSD Card</gnm:Cell>
+        <gnm:Cell Row="6" Col="4" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="7" Col="0" ValueType="60">3610</gnm:Cell>
+        <gnm:Cell Row="7" Col="2" ValueType="60">Adafruit</gnm:Cell>
+        <gnm:Cell Row="7" Col="3" ValueType="60">USB micro cable</gnm:Cell>
+        <gnm:Cell Row="7" Col="4" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="8" Col="0" ValueType="60">NL4MPXX-3</gnm:Cell>
+        <gnm:Cell Row="8" Col="2" ValueType="60">Neutrik</gnm:Cell>
+        <gnm:Cell Row="8" Col="3" ValueType="60">speakON connector 4 positions</gnm:Cell>
+        <gnm:Cell Row="8" Col="4" ValueType="40">3</gnm:Cell>
+        <gnm:Cell Row="9" Col="0" ValueType="60">1658620-9</gnm:Cell>
+        <gnm:Cell Row="9" Col="2" ValueType="60">TE Connectivity</gnm:Cell>
+        <gnm:Cell Row="9" Col="3" ValueType="60">40 pin flat cable female connector</gnm:Cell>
+        <gnm:Cell Row="9" Col="4" ValueType="40">2</gnm:Cell>
+        <gnm:Cell Row="10" Col="0" ValueType="60">61304011121</gnm:Cell>
+        <gnm:Cell Row="10" Col="2" ValueType="60">Wurth Elektronik</gnm:Cell>
+        <gnm:Cell Row="10" Col="3" ValueType="60">40 pin strip</gnm:Cell>
+        <gnm:Cell Row="10" Col="4" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="11" Col="0" ValueType="60">C3365/40100</gnm:Cell>
+        <gnm:Cell Row="11" Col="2" ValueType="60">3M</gnm:Cell>
+        <gnm:Cell Row="11" Col="3" ValueType="60">40 pin flat cable</gnm:Cell>
+        <gnm:Cell Row="11" Col="4" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="12" Col="0" ValueType="60">MPB16-CBRP-6-JR-0V</gnm:Cell>
+        <gnm:Cell Row="12" Col="2" ValueType="60">Dailywell</gnm:Cell>
+        <gnm:Cell Row="12" Col="3" ValueType="60">pushbutton switch with LED</gnm:Cell>
+        <gnm:Cell Row="12" Col="4" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="13" Col="0" ValueType="60">LR1F39R</gnm:Cell>
+        <gnm:Cell Row="13" Col="2" ValueType="60">TE Connectivity</gnm:Cell>
+        <gnm:Cell Row="13" Col="3" ValueType="60">resostor 39 Ohm</gnm:Cell>
+        <gnm:Cell Row="13" Col="4" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="14" Col="0" ValueType="60">971100151</gnm:Cell>
+        <gnm:Cell Row="14" Col="2" ValueType="60">Wurth Elektronik</gnm:Cell>
+        <gnm:Cell Row="14" Col="3" ValueType="60">spacer M2.5 x 10mm</gnm:Cell>
+        <gnm:Cell Row="14" Col="4" ValueType="40">4</gnm:Cell>
+        <gnm:Cell Row="15" Col="0" ValueType="60">971160155</gnm:Cell>
+        <gnm:Cell Row="15" Col="2" ValueType="60">Wurth Elektronik</gnm:Cell>
+        <gnm:Cell Row="15" Col="3" ValueType="60">spacer M2.5 x 16mm</gnm:Cell>
+        <gnm:Cell Row="15" Col="4" ValueType="40">4</gnm:Cell>
+        <gnm:Cell Row="16" Col="0" ValueType="60">970200144</gnm:Cell>
+        <gnm:Cell Row="16" Col="2" ValueType="60">Wurth Elektronik</gnm:Cell>
+        <gnm:Cell Row="16" Col="3" ValueType="60">spacer M2.5 x 20mm f-f</gnm:Cell>
+        <gnm:Cell Row="16" Col="4" ValueType="40">4</gnm:Cell>
+        <gnm:Cell Row="17" Col="0" ValueType="60">SJ-5003 (BLACK)</gnm:Cell>
+        <gnm:Cell Row="17" Col="2" ValueType="60">3M</gnm:Cell>
+        <gnm:Cell Row="17" Col="3" ValueType="60">rubber feet</gnm:Cell>
+        <gnm:Cell Row="17" Col="4" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="17" Col="5" ValueType="40">4</gnm:Cell>
+      </gnm:Cells>
+      <gnm:SheetLayout TopLeft="A1"/>
+      <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0" SensitivityR="0"/>
+    </gnm:Sheet>
+    <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
+      <gnm:Name>Bossard</gnm:Name>
+      <gnm:MaxCol>5</gnm:MaxCol>
+      <gnm:MaxRow>3</gnm:MaxRow>
+      <gnm:Zoom>1</gnm:Zoom>
+      <gnm:Names>
+        <gnm:Name>
+          <gnm:name>Print_Area</gnm:name>
+          <gnm:value>#REF!</gnm:value>
+          <gnm:position>A1</gnm:position>
+        </gnm:Name>
+        <gnm:Name>
+          <gnm:name>Sheet_Title</gnm:name>
+          <gnm:value>&quot;Bossard&quot;</gnm:value>
+          <gnm:position>A1</gnm:position>
+        </gnm:Name>
+      </gnm:Names>
+      <gnm:PrintInformation>
+        <gnm:Margins>
+          <gnm:top Points="54" PrefUnit="mm"/>
+          <gnm:bottom Points="54" PrefUnit="mm"/>
+          <gnm:left Points="50.4" PrefUnit="mm"/>
+          <gnm:right Points="50.4" PrefUnit="mm"/>
+          <gnm:header Points="36.85" PrefUnit="mm"/>
+          <gnm:footer Points="36.85" PrefUnit="mm"/>
+        </gnm:Margins>
+        <gnm:Scale type="percentage" percentage="100"/>
+        <gnm:vcenter value="0"/>
+        <gnm:hcenter value="0"/>
+        <gnm:grid value="0"/>
+        <gnm:even_if_only_styles value="0"/>
+        <gnm:monochrome value="0"/>
+        <gnm:draft value="0"/>
+        <gnm:titles value="0"/>
+        <gnm:do_not_print value="0"/>
+        <gnm:print_range value="GNM_PRINT_ACTIVE_SHEET"/>
+        <gnm:order>d_then_r</gnm:order>
+        <gnm:orientation>portrait</gnm:orientation>
+        <gnm:Header Left="" Middle="&amp;[TAB]" Right=""/>
+        <gnm:Footer Left="" Middle="Page &amp;[PAGE]" Right=""/>
+        <gnm:paper>iso_a4</gnm:paper>
+        <gnm:comments placement="GNM_PRINT_COMMENTS_NONE"/>
+        <gnm:errors PrintErrorsAs="GNM_PRINT_ERRORS_AS_DISPLAYED"/>
+      </gnm:PrintInformation>
+      <gnm:Styles>
+        <gnm:StyleRegion startCol="0" startRow="0" endCol="0" endRow="0">
+          <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_TOP" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="@">
+            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="1" endCol="0" endRow="1">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="@">
+            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="2" endCol="0" endRow="2">
+          <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="3" endCol="0" endRow="65535">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="@">
+            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="0" endCol="3" endRow="0">
+          <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_TOP" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="1" endCol="255" endRow="65535">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4" startRow="0" endCol="255" endRow="0">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+      </gnm:Styles>
+      <gnm:Cols DefaultSizePts="59.4">
+        <gnm:ColInfo No="0" Unit="165.4"/>
+        <gnm:ColInfo No="1" Unit="129.6"/>
+        <gnm:ColInfo No="2" Unit="124.9"/>
+        <gnm:ColInfo No="3" Unit="218.5"/>
+        <gnm:ColInfo No="4" Unit="66.44"/>
+      </gnm:Cols>
+      <gnm:Rows DefaultSizePts="15.8"/>
+      <gnm:Selections CursorCol="0" CursorRow="1">
+        <gnm:Selection startCol="0" startRow="1" endCol="0" endRow="1"/>
+      </gnm:Selections>
+      <gnm:Cells>
+        <gnm:Cell Row="0" Col="0" ValueType="60">Manufacturer Part Number</gnm:Cell>
+        <gnm:Cell Row="0" Col="1" ValueType="60">Distrelec Part Number</gnm:Cell>
+        <gnm:Cell Row="0" Col="2" ValueType="60">Manufacturer Name</gnm:Cell>
+        <gnm:Cell Row="0" Col="3" ValueType="60">Description</gnm:Cell>
+        <gnm:Cell Row="0" Col="4" ValueType="60">Quantity 1</gnm:Cell>
+        <gnm:Cell Row="0" Col="5" ValueType="60">Quantity 2</gnm:Cell>
+        <gnm:Cell Row="2" Col="0" ValueType="40">3060657</gnm:Cell>
+        <gnm:Cell Row="2" Col="2" ValueType="60">Bossard</gnm:Cell>
+        <gnm:Cell Row="2" Col="3" ValueType="60">screw countersunk head M2.5 x 10</gnm:Cell>
+        <gnm:Cell Row="2" Col="4" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="2" Col="5" ValueType="40">4</gnm:Cell>
+        <gnm:Cell Row="3" Col="0" ValueType="60">1148494</gnm:Cell>
+        <gnm:Cell Row="3" Col="2" ValueType="60">Bossard</gnm:Cell>
+        <gnm:Cell Row="3" Col="3" ValueType="60">screw countersunk head M3 x 10</gnm:Cell>
+        <gnm:Cell Row="3" Col="4" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="3" Col="5" ValueType="40">18</gnm:Cell>
+      </gnm:Cells>
+      <gnm:SheetLayout TopLeft="A1"/>
+      <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0" SensitivityR="0"/>
+    </gnm:Sheet>
+    <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
+      <gnm:Name>Seeed studio</gnm:Name>
+      <gnm:MaxCol>4</gnm:MaxCol>
+      <gnm:MaxRow>1</gnm:MaxRow>
+      <gnm:Zoom>1</gnm:Zoom>
+      <gnm:Names>
+        <gnm:Name>
+          <gnm:name>Print_Area</gnm:name>
+          <gnm:value>#REF!</gnm:value>
+          <gnm:position>A1</gnm:position>
+        </gnm:Name>
+        <gnm:Name>
+          <gnm:name>Sheet_Title</gnm:name>
+          <gnm:value>&quot;Seeed studio&quot;</gnm:value>
+          <gnm:position>A1</gnm:position>
+        </gnm:Name>
+      </gnm:Names>
+      <gnm:PrintInformation>
+        <gnm:Margins>
+          <gnm:top Points="54" PrefUnit="mm"/>
+          <gnm:bottom Points="54" PrefUnit="mm"/>
+          <gnm:left Points="50.4" PrefUnit="mm"/>
+          <gnm:right Points="50.4" PrefUnit="mm"/>
+          <gnm:header Points="36.85" PrefUnit="mm"/>
+          <gnm:footer Points="36.85" PrefUnit="mm"/>
+        </gnm:Margins>
+        <gnm:Scale type="percentage" percentage="100"/>
+        <gnm:vcenter value="0"/>
+        <gnm:hcenter value="0"/>
+        <gnm:grid value="0"/>
+        <gnm:even_if_only_styles value="0"/>
+        <gnm:monochrome value="0"/>
+        <gnm:draft value="0"/>
+        <gnm:titles value="0"/>
+        <gnm:do_not_print value="0"/>
+        <gnm:print_range value="GNM_PRINT_ACTIVE_SHEET"/>
+        <gnm:order>d_then_r</gnm:order>
+        <gnm:orientation>portrait</gnm:orientation>
+        <gnm:Header Left="" Middle="&amp;[TAB]" Right=""/>
+        <gnm:Footer Left="" Middle="Page &amp;[PAGE]" Right=""/>
+        <gnm:paper>iso_a4</gnm:paper>
+        <gnm:comments placement="GNM_PRINT_COMMENTS_NONE"/>
+        <gnm:errors PrintErrorsAs="GNM_PRINT_ERRORS_AS_DISPLAYED"/>
+      </gnm:PrintInformation>
+      <gnm:Styles>
+        <gnm:StyleRegion startCol="0" startRow="0" endCol="1" endRow="0">
+          <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_TOP" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="@">
+            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="1" endCol="0" endRow="65535">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="@">
+            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="1" endCol="1" endRow="65535">
+          <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="@">
+            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="2" startRow="0" endCol="3" endRow="0">
+          <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_TOP" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="2" startRow="1" endCol="255" endRow="1">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="2" startRow="2" endCol="2" endRow="2">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="1" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="2" startRow="3" endCol="255" endRow="65535">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="3" startRow="2" endCol="255" endRow="2">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4" startRow="0" endCol="255" endRow="0">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+      </gnm:Styles>
+      <gnm:Cols DefaultSizePts="59.4">
+        <gnm:ColInfo No="0" Unit="165.4"/>
+        <gnm:ColInfo No="1" Unit="129.6"/>
+        <gnm:ColInfo No="2" Unit="124.9"/>
+        <gnm:ColInfo No="3" Unit="150.5"/>
+        <gnm:ColInfo No="4" Unit="66.44"/>
+      </gnm:Cols>
+      <gnm:Rows DefaultSizePts="15.8"/>
+      <gnm:Selections CursorCol="0" CursorRow="2">
+        <gnm:Selection startCol="0" startRow="2" endCol="0" endRow="2"/>
+      </gnm:Selections>
+      <gnm:Cells>
+        <gnm:Cell Row="0" Col="0" ValueType="60">Manufacturer Part Number</gnm:Cell>
+        <gnm:Cell Row="0" Col="1" ValueType="60">Distributor Part Number</gnm:Cell>
+        <gnm:Cell Row="0" Col="2" ValueType="60">Manufacturer Name</gnm:Cell>
+        <gnm:Cell Row="0" Col="3" ValueType="60">Description</gnm:Cell>
+        <gnm:Cell Row="0" Col="4" ValueType="60">Quantity 1</gnm:Cell>
+        <gnm:Cell Row="1" Col="0" ValueType="60">114992543</gnm:Cell>
+        <gnm:Cell Row="1" Col="2" ValueType="60">seeed studio</gnm:Cell>
+        <gnm:Cell Row="1" Col="3" ValueType="60">4-Channel RPi Relay HAT</gnm:Cell>
+        <gnm:Cell Row="1" Col="4" ValueType="40">1</gnm:Cell>
+      </gnm:Cells>
+      <gnm:SheetLayout TopLeft="A1"/>
+      <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0" SensitivityR="0"/>
+    </gnm:Sheet>
+    <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
+      <gnm:Name>cables</gnm:Name>
+      <gnm:MaxCol>255</gnm:MaxCol>
+      <gnm:MaxRow>7</gnm:MaxRow>
+      <gnm:Zoom>1</gnm:Zoom>
+      <gnm:Names>
+        <gnm:Name>
+          <gnm:name>Print_Area</gnm:name>
+          <gnm:value>#REF!</gnm:value>
+          <gnm:position>A1</gnm:position>
+        </gnm:Name>
+        <gnm:Name>
+          <gnm:name>Sheet_Title</gnm:name>
+          <gnm:value>&quot;cables&quot;</gnm:value>
+          <gnm:position>A1</gnm:position>
+        </gnm:Name>
+      </gnm:Names>
+      <gnm:PrintInformation>
+        <gnm:Margins>
+          <gnm:top Points="75.8" PrefUnit="mm"/>
+          <gnm:bottom Points="75.8" PrefUnit="mm"/>
+          <gnm:left Points="56.7" PrefUnit="mm"/>
+          <gnm:right Points="56.7" PrefUnit="mm"/>
+          <gnm:header Points="56.7" PrefUnit="mm"/>
+          <gnm:footer Points="56.7" PrefUnit="mm"/>
+        </gnm:Margins>
+        <gnm:Scale type="percentage" percentage="100"/>
+        <gnm:vcenter value="0"/>
+        <gnm:hcenter value="0"/>
+        <gnm:grid value="0"/>
+        <gnm:even_if_only_styles value="0"/>
+        <gnm:monochrome value="0"/>
+        <gnm:draft value="0"/>
+        <gnm:titles value="0"/>
+        <gnm:do_not_print value="0"/>
+        <gnm:print_range value="GNM_PRINT_ACTIVE_SHEET"/>
+        <gnm:order>d_then_r</gnm:order>
+        <gnm:orientation>portrait</gnm:orientation>
+        <gnm:Header Left="" Middle="Times New Roman,Regular&quot;2&amp;[TAB]" Right=""/>
+        <gnm:Footer Left="" Middle="Times New Roman,Regular&quot;2Page &amp;[PAGE]" Right=""/>
+        <gnm:paper>iso_a4</gnm:paper>
+        <gnm:comments placement="GNM_PRINT_COMMENTS_NONE"/>
+        <gnm:errors PrintErrorsAs="GNM_PRINT_ERRORS_AS_DISPLAYED"/>
+      </gnm:PrintInformation>
+      <gnm:Styles>
+        <gnm:StyleRegion startCol="0" startRow="0" endCol="255" endRow="65535">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+      </gnm:Styles>
+      <gnm:Cols DefaultSizePts="59.4">
+        <gnm:ColInfo No="0" Unit="76" Count="2"/>
+        <gnm:ColInfo No="2" Unit="42.9" Count="6"/>
+        <gnm:ColInfo No="8" Unit="76" Count="248"/>
+      </gnm:Cols>
+      <gnm:Rows DefaultSizePts="12.8"/>
+      <gnm:Selections CursorCol="0" CursorRow="8">
+        <gnm:Selection startCol="0" startRow="8" endCol="0" endRow="8"/>
+      </gnm:Selections>
+      <gnm:Cells>
+        <gnm:Cell Row="0" Col="0" ValueType="60">front plate</gnm:Cell>
+        <gnm:Cell Row="0" Col="1" ValueType="60">signal red</gnm:Cell>
+        <gnm:Cell Row="0" Col="2" ValueType="40" ValueFormat="General">16</gnm:Cell>
+        <gnm:Cell Row="0" Col="3" ValueType="40" ValueFormat="General">12.5</gnm:Cell>
+        <gnm:Cell Row="0" Col="4" ValueType="40" ValueFormat="General">11</gnm:Cell>
+        <gnm:Cell Row="0" Col="5" ValueType="40" ValueFormat="General">8.5</gnm:Cell>
+        <gnm:Cell Row="0" Col="6" ValueType="40" ValueFormat="General">6.5</gnm:Cell>
+        <gnm:Cell Row="0" Col="7" ValueType="40" ValueFormat="General">3</gnm:Cell>
+        <gnm:Cell Row="1" Col="1" ValueType="60">signal black</gnm:Cell>
+        <gnm:Cell Row="1" Col="2" ValueType="40" ValueFormat="General">14</gnm:Cell>
+        <gnm:Cell Row="1" Col="3" ValueType="40" ValueFormat="General">2</gnm:Cell>
+        <gnm:Cell Row="1" Col="4" ValueType="40" ValueFormat="General">2</gnm:Cell>
+        <gnm:Cell Row="2" Col="0" ValueType="60">RPi</gnm:Cell>
+        <gnm:Cell Row="2" Col="1" ValueType="60">signal red</gnm:Cell>
+        <gnm:Cell Row="2" Col="2" ValueType="40" ValueFormat="General">22.5</gnm:Cell>
+        <gnm:Cell Row="2" Col="3" ValueType="40" ValueFormat="General">22.5</gnm:Cell>
+        <gnm:Cell Row="2" Col="4" ValueType="40" ValueFormat="General">22</gnm:Cell>
+        <gnm:Cell Row="2" Col="5" ValueType="40" ValueFormat="General">22</gnm:Cell>
+        <gnm:Cell Row="2" Col="6" ValueType="40" ValueFormat="General">22</gnm:Cell>
+        <gnm:Cell Row="2" Col="7" ValueType="40" ValueFormat="General">22</gnm:Cell>
+        <gnm:Cell Row="3" Col="1" ValueType="60">signal black</gnm:Cell>
+        <gnm:Cell Row="3" Col="2" ValueType="40">21</gnm:Cell>
+        <gnm:Cell Row="4" Col="0" ValueType="60">power</gnm:Cell>
+        <gnm:Cell Row="4" Col="1" ValueType="60">nude</gnm:Cell>
+        <gnm:Cell Row="4" Col="2" ValueType="40" ValueFormat="General">4</gnm:Cell>
+        <gnm:Cell Row="4" Col="3" ValueType="40" ValueFormat="General">1.5</gnm:Cell>
+        <gnm:Cell Row="5" Col="1" ValueType="60">yellow-green</gnm:Cell>
+        <gnm:Cell Row="5" Col="2" ValueType="40" ValueFormat="General">10</gnm:Cell>
+        <gnm:Cell Row="5" Col="3" ValueType="40" ValueFormat="General">10</gnm:Cell>
+        <gnm:Cell Row="5" Col="4" ValueType="40" ValueFormat="General">8</gnm:Cell>
+        <gnm:Cell Row="5" Col="5" ValueType="40" ValueFormat="General">8</gnm:Cell>
+        <gnm:Cell Row="6" Col="1" ValueType="60">blue</gnm:Cell>
+        <gnm:Cell Row="6" Col="2" ValueType="40" ValueFormat="General">11</gnm:Cell>
+        <gnm:Cell Row="6" Col="3" ValueType="40" ValueFormat="General">9</gnm:Cell>
+        <gnm:Cell Row="6" Col="4" ValueType="40" ValueFormat="General">9</gnm:Cell>
+        <gnm:Cell Row="6" Col="5" ValueType="40" ValueFormat="General">8</gnm:Cell>
+        <gnm:Cell Row="7" Col="1" ValueType="60">brown</gnm:Cell>
+        <gnm:Cell Row="7" Col="2" ValueType="40" ValueFormat="General">21</gnm:Cell>
+        <gnm:Cell Row="7" Col="3" ValueType="40" ValueFormat="General">18</gnm:Cell>
+        <gnm:Cell Row="7" Col="4" ValueType="40" ValueFormat="General">11</gnm:Cell>
+        <gnm:Cell Row="7" Col="5" ValueType="40" ValueFormat="General">10</gnm:Cell>
+        <gnm:Cell Row="7" Col="6" ValueType="40" ValueFormat="General">4</gnm:Cell>
+        <gnm:Cell Row="7" Col="7" ValueType="40" ValueFormat="General">4</gnm:Cell>
+      </gnm:Cells>
+      <gnm:SheetLayout TopLeft="A1"/>
+      <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0" SensitivityR="0"/>
+    </gnm:Sheet>
+  </gnm:Sheets>
+  <gnm:UIData SelectedTab="0"/>
+</gnm:Workbook>
